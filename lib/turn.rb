@@ -7,7 +7,7 @@ def display_board(board)
 end 
 
 def position_taken?(board, index)
-  if !position_taken?
+  if !position_taken?(board, index) &&
 def valid_move?(board, index, )
 
 
