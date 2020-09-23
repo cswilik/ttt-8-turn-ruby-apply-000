@@ -20,7 +20,7 @@ def valid_move?(board, index)
   end 
 end 
 def input_to_index(input)
-  
+  input.to_i 
 def move(board,index,token)
   board[index] = token
 
